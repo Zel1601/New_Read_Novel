@@ -1,0 +1,92 @@
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 20px 50px;
+  background-color: black;
+  color: #fff;
+}
+
+.img_hd {
+  width: 80px;
+  margin-right: 50px;
+}
+
+.admin-header ul {
+  display: flex;
+  align-items: center; /* Đảm bảo các nút trong danh sách cũng được căn giữa theo chiều dọc */
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1000px; /* Điều chỉnh max-width cho cân đối với phần bên phải */
+}
+
+.admin-header ul li {
+  position: relative;
+  margin-right: 30px;
+}
+
+.admin-header ul li:last-child {
+  margin-right: 0;
+}
+
+.admin-header ul li .dropdown {
+  display: inline-block;
+}
+
+.admin-header ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.admin-header ul li .dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.admin-header ul li .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.admin-header ul li:hover .dropdown-content {
+  display: block;
+}
+
+.admin-header ul li .dropbtn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.admin-header ul li .dropbtn:hover {
+  background-color: #0056b3;
+}
+
+.admin-header-right {
+  display: flex;
+  align-items: center; /* Căn giữa nút đăng xuất theo chiều dọc */
+}
+
+.admin-header-right button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-header-right button:hover {
+  background-color: #c82333;
+}

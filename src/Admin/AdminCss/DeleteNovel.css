@@ -1,0 +1,42 @@
+/* DeleteNovel.css */
+
+.delete-novel-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delete-novel-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .select-novel {
+    margin-bottom: 20px;
+  }
+  
+  .select-novel-label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .select-novel-dropdown {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .delete-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff7875;
+  }
+  

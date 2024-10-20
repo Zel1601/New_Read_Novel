@@ -1,0 +1,13 @@
+.container_chapter{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.chapter_title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.chapter_content{
+    font-size: 20px;
+}

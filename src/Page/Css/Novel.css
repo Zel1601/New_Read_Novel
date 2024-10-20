@@ -1,0 +1,66 @@
+.novel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.novel-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.novel-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.novel-item img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin: auto; /* Căn giữa hình ảnh theo chiều ngang và dọc */
+  display: block; /* Không bị ảnh hưởng bởi padding */
+}
+
+.novel-item h4 {
+  margin-top: 10px;
+}
+
+.novel-item p {
+  margin: 5px 0;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.pagination .btn_pa {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .btn_pa:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,33 @@
+/* AdminCss/ListNovel.css */
+
+.novel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .novel-item {
+    width: calc(25% - 20px); 
+    margin-bottom: 20px; 
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .novel-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .novel-details {
+    padding: 10px 0;
+  }
+  
+  .h2_list{
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }

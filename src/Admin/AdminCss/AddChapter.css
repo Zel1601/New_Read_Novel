@@ -1,0 +1,59 @@
+/* AdminCss/AddChapter.css */
+
+.add-chapter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-chapter-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .select-novel,
+  .chapter-details {
+    margin-bottom: 20px;
+  }
+  
+  .select-novel label,
+  .chapter-details label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .select-novel select,
+  .chapter-details input[type="text"],
+  .chapter-details textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .chapter-details textarea {
+    height: 200px;
+  }
+  
+  .btn_act {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn_act:hover {
+    background-color: #0056b3;
+  }
+  

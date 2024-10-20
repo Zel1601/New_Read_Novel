@@ -1,0 +1,50 @@
+/* DeleteCategory.css */
+
+.container {
+    max-width: 400px;
+    margin: 50px auto; /* Căn giữa theo chiều ngang và căn trên dưới */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .sl_dl {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #dc3545; /* Màu đỏ */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: #c82333; /* Màu đỏ tối */
+  }
+  
+  .success-message {
+    text-align: center;
+    margin-top: 10px;
+    color: #28a745; /* Màu xanh lá cây */
+  }
+  

@@ -1,0 +1,51 @@
+.novel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.novel-card {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.novel-card img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.novel-card h3 {
+  margin-top: 10px;
+}
+
+.novel-card p {
+  margin-top: 5px;
+}
+
+.chapters {
+  margin-top: 10px;
+}
+
+.chapters h4 {
+  margin-bottom: 5px;
+}
+
+.chapters ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chapters li {
+  margin-bottom: 5px;
+}
+
+.title_item{
+    text-align: center;
+    padding: 20px;
+    color: red;
+}

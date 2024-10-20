@@ -1,0 +1,60 @@
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .novel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .novel-section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .novel-item {
+    margin-bottom: 10px;
+  }
+  
+  .novel-item h4 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  

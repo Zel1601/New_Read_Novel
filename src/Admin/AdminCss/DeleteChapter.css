@@ -1,0 +1,49 @@
+/* AdminCss/DeleteChapter.css */
+
+.delete-chapter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .delete-chapter-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .select-novel,
+  .select-chapter {
+    margin-bottom: 20px;
+  }
+  
+  .select-novel label,
+  .select-chapter label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select-novel select,
+  .select-chapter select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn_act {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn_act:hover {
+    background-color: #0056b3;
+  }
+  

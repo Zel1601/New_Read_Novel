@@ -1,0 +1,56 @@
+/* EditNovel.css */
+
+.edit-novel {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-novel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-novel label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .edit-novel input[type="text"],
+  .edit-novel textarea,
+  .edit-novel select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-novel textarea {
+    height: 100px;
+  }
+  
+  .edit-novel button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 700px;
+    width: 200px;
+  }
+  
+  .edit-novel button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-novel img {
+    max-width: 200px;
+    margin-top: 10px;
+  }
+  

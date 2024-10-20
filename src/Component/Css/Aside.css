@@ -1,0 +1,35 @@
+.container_aside {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section-wrapper1 {
+  width: 50%; /* Chiếm 50% chiều rộng */
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid red; /* Khung viền */
+  background-color: #f0f0f0; /* Màu nền */
+}
+.section-wrapper2 {
+    width: 50%; /* Chiếm 50% chiều rộng */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black; /* Khung viền */
+    background-color:aliceblue; /* Màu nền */
+  }
+
+ul  .li_item {
+  display: block;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.p {
+  font-style: italic;
+}

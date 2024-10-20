@@ -1,0 +1,29 @@
+.detail-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.img_detail {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.detail-info {
+  flex-grow: 1;
+}
+
+.detail_title{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    font-weight: bold;
+}

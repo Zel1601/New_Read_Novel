@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  justify-content: space-between; /* Phân chia hai phần bằng cách căn cạnh từng phần lề trái và lề phải */
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+    width: 100px;
+}
+
+.info-section,
+.function-section {
+  width: 45%; /* Mỗi phần chiếm 45% chiều rộng */
+}
+
+.info-section h2,
+.function-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.function-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.function-section ul li {
+  margin-bottom: 5px;
+}
+
+.function-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.function-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.h{
+    color: red;
+}

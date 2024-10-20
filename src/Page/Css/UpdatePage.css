@@ -1,0 +1,33 @@
+.rule-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rule-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .rule-section {
+    margin-bottom: 20px;
+  }
+  
+  .rule-section h2 {
+    color: #0073e6;
+  }
+  
+  .rule-section p, .rule-section ul {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .rule-section ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  

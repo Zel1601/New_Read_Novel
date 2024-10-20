@@ -1,0 +1,58 @@
+/* EditCategory.css */
+
+.container {
+    max-width: 400px;
+    margin: 50px auto; /* Căn giữa theo chiều ngang và căn trên dưới */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .lbb {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .lb_edit[type="text"],
+  .sl {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn_edit[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn_edit[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    color: #28a745; /* Màu xanh lá cây */
+  }
+  
+  .error-message {
+    color: #dc3545; /* Màu đỏ */
+  }
+  
